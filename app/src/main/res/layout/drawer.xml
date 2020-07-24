@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/lldrawerheader"
+    android:layout_height="240dp"
+    android:background="#03a9f4"
+    >
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:scaleType="centerCrop"
+    android:layout_marginLeft="10dp"
+    android:src="@drawable/drawer_profile_icon"
+    android:layout_marginTop="30dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vani Agarwal"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtProfileName"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vaniagarwal778@gmail.com"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtEmail"/>
+
+</LinearLayout>

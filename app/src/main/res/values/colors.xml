@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff5722</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAddToCart">#ffeb3b</color>
+    <color name="colorAddButton">#f44336</color>
+    <color name="colorFavourite">#f44336</color>
+</resources>

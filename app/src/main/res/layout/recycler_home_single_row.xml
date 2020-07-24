@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="3dp"
+    app:cardCornerRadius="4dp"
+    android:background="#ffffff"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:weightSum="6"
+    android:id="@+id/llContent"
+    >
+
+    <ImageView
+        android:layout_weight="1.5"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:id="@+id/imgFoodImage"
+        android:layout_marginTop="2dp"
+        android:src="@mipmap/ic_launcher"
+        />
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="3.3"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name of the Restaurant"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="5dp"
+        android:padding="8dp"
+        android:id="@+id/txtResName"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Rs."
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:id="@+id/txtResrupee"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/txtResName"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/Price"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:id="@+id/txtResPrice"
+        android:layout_marginLeft="28dp"
+        android:layout_below="@+id/txtResName"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text=" /person"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:id="@+id/txtResperson"
+        android:layout_alignTop="@+id/txtResPrice"
+        android:layout_marginLeft="52dp"
+        />
+
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1.2">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgAdd_To_Favourite"
+        android:src="@drawable/ic_favourtie_icon"
+        android:layout_marginTop="30dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgAdd_To_Fill_Favourite"
+        android:src="@drawable/ic_fill_favourite_icon"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="4.1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/txtResRating"
+        android:textColor="#ffca28"
+        android:layout_marginBottom="43dp"
+        android:layout_marginLeft="28dp"
+        />
+</RelativeLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

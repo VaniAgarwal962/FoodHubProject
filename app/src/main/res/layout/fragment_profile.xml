@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:id="@+id/imgProfile"
+        android:background="#ff5722"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/drawer_profile_icon"
+        android:layout_marginTop="70dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Name"
+        android:background="#ffeb3b"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:id="@+id/txtName"
+        android:layout_below="@+id/imgProfile"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffeb3b"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Name"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_below="@+id/txtName"
+        android:id="@+id/txtMobile"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffeb3b"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:text="Name"
+        android:textAllCaps="false"
+        android:layout_below="@+id/txtMobile"
+        android:id="@+id/txtemail"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffeb3b"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Name"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_below="@+id/txtemail"
+        android:id="@+id/txtdaddress"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    </RelativeLayout>

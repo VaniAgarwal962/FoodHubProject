@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.OrderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/default_img">
+
+       <TextView
+          android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+            android:text="You haven't ordered anything yet :("
+          android:layout_marginTop="32dp"
+          android:layout_marginLeft="10dp"
+           android:textStyle="bold"
+           android:textSize="18sp"
+            android:id="@+id/txtNoPrevOrder"
+         android:typeface="serif"
+           android:textColor="#000000"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/noordericon"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/showlist">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your previous orders are listed below:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/txtYourPrevOrder"
+        android:typeface="serif"
+        android:textColor="#000000"
+        />
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="ResName"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:id="@+id/txtOrderHistoryResName"-->
+<!--        android:layout_below="@+id/txtYourPrevOrder"-->
+<!--        android:typeface="serif"-->
+<!--        android:textColor="#000000"-->
+<!--        />-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOrderHistory_Fragment"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        />
+
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/txtFav_Fragment"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_marginTop="10dp"/>-->
+
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:id="@+id/ProgressLayout">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/ProgressBar"
+            />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

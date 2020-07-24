@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FavouriteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:id="@+id/fav_default_layout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have no favourites yet!!"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:typeface="serif"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/imgdefault_fav"
+        android:src="@drawable/favourite2"/>
+
+</RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFav_Fragment"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#fff"-->
+<!--        android:id="@+id/ProgressLayout">-->
+<!--        <ProgressBar-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:id="@+id/ProgressBar"-->
+<!--            />-->
+
+<!--    </RelativeLayout>-->
+</FrameLayout>

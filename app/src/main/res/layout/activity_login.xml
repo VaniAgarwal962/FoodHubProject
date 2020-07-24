@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:background="#ff5722">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foodhub_icon"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgIcon"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number(10 digits)"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:background="#ffffff"
+        android:id="@+id/txtMobileNumber"
+        android:layout_marginTop="10dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_mobile_number_icon"
+        android:layout_below="@+id/imgIcon"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_password_icon"
+        android:background="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/txtPassword"
+        android:layout_below="@+id/txtMobileNumber"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPassword"
+        android:text="@string/login"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:id="@+id/btnLogin"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/txtforgotpassword"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?Sign up now"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/txtSignUp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+</RelativeLayout>
+
+
+
+

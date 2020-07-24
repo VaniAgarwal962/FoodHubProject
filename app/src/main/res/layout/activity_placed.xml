@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PlacedActivity"
+    android:background="#ff5722">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ordersuccessed"
+        android:id="@+id/imgok"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Order Placed Successfully!!!"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_marginTop="10dp"
+    android:typeface="serif"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/imgok"/>
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        style="@style/Widget.AppCompat.Button.Borderless"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="UNFILLED MATERIAL BUTTON"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="15sp"-->
+<!--        app:backgroundTint="@android:color/transparent"-->
+<!--        app:cornerRadius="8dp"-->
+<!--        app:rippleColor="#33AAAAAA"-->
+<!--        app:strokeColor="#fff"-->
+<!--        app:strokeWidth="2dp" />-->
+
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgok"
+        android:layout_marginTop="70dp"
+        android:textSize="15sp"
+        android:typeface="serif"
+        app:strokeColor="#ffffff"
+        app:backgroundTint="@android:color/transparent"
+        android:id="@+id/btnOrderPlacedOk"
+        android:layout_centerInParent="true"
+        app:strokeWidth="2dp"
+        app:cornerRadius="40dp"/>
+
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Ok"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#fff"-->
+<!--        android:background="#ff5722"-->
+<!--        -->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@+id/imgok"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:id="@+id/btnOrderPlacedOk"/>-->
+
+
+
+
+
+</RelativeLayout>

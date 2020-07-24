@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/home_fragment"-->
+<!--        android:id="@+id/txtTEXT"-->
+<!--        android:padding="10dp"-->
+<!--        />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHome_Fragment"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:id="@+id/ProgressLayout">
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Patience is a bitter plant that produces sweet fruit."-->
+<!--            android:textStyle="italic"-->
+<!--            android:textSize="18dp"-->
+<!--            android:layout_marginTop="280dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="-Charles Swierdoll"-->
+<!--            android:textStyle="italic"-->
+<!--            android:textSize="18dp"-->
+<!--            android:layout_marginTop="310dp"-->
+<!--            android:layout_marginLeft="125dp"-->
+
+<!--            />-->
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/ProgressBar"
+
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

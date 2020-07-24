@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff5722">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the received OTP below:-"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:inputType="number"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:id="@+id/text"
+        android:textColor="#fff"
+        />
+
+    <EditText
+        android:id="@+id/txtOTP"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="phone"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="30dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_mobile_number_icon"
+        android:hint="OTP(4 characters)"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOTP"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_password_icon"
+        android:hint="New Password(Min. 4 characters)"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/txtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/txtPassword"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/ic_password_icon"
+        android:hint="Confirm Password"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtConfirmPassword"
+        android:layout_marginTop="25dp"
+        android:background="#000"
+        android:text="Submit"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
