@@ -17,7 +17,7 @@ class SplashActivity : AppCompatActivity() {
                 LoginActivity::class.java)
                 startActivity(startAct)
                     finish()
-            },1000)
+            },1000) // in milliseconds  
 
     }
 }
