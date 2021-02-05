@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
 
         ViewToolbar()
 
+        //setting the default fragment on the main page and also in the navigation drawer.
         supportFragmentManager.beginTransaction().replace(
             R.id.frameLayout,
             HomeFragment()
